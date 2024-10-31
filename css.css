@@ -1,0 +1,93 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0; padding: 0;}
+
+* {outline: medium none;}
+html {font-family: lucida grande,Tahoma,Verdana,Arial,sans;font-size: 11px;color: #333;}
+a {color: #0099FF;text-decoration: none;}
+fieldset, img {border: 0 none;}
+.line, .lastUnit { overflow: hidden;}
+.size1of2 { width: 50%;}
+.size1of3 { width: 33.3%;}
+.size1of37 { width: 37%;}
+.unit { float: left;}
+.lastUnit {float: none;width: auto;}
+.section{margin-bottom:20px}
+.section10{margin-bottom:10px}
+.middleCol {
+    display: inline;
+    float: left;
+    overflow: hidden;
+}
+.leftCol {
+    display: inline;
+    float: left;
+    overflow: hidden;
+}
+li {list-style: none outside none;}
+.selectG{
+	background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    color: #999;
+    font-family: tahoma,verdana,arial,sans;
+    font-size: 12px;
+    height: 24px;
+    padding: 2px 3px;
+    width: 300px;
+}
+.textboxG {
+    border: 1px solid #CCCCCC;
+    color: #000000;
+    font-family: tahoma,verdana,arial,sans;
+    font-size: 12px;
+    font-weight: bold;
+    height: 22px;
+    padding: 2px 5px;
+	width:140px;
+}
+.emptyCol{height: 1px;}
+.size1of5 {
+    width: 15%;
+}
+.size300{}
+.mtop5{margin-top:5px;}
+/* INICIO PLUGIN WORDPRESS */
+.qb_api_wordpress{
+	margin-top:20px;
+	width:750px;
+}
+.qb_api_wordpress .middleCol {
+    margin-left: 195px;
+    width: 550px;
+}
+
+.qb_api_wordpress .leftCol {
+    margin-left: -745px;
+    margin-right: 15px;
+    width: 180px;
+}
+.qb_api_wordpress .leftCol p{
+	text-align:right;
+	line-height:22px;
+	margin:0!important;
+}
+#category_selects li{ margin-bottom:10px;}
+.qb_api_wordpress .radio_bt{
+	margin: 0 5px 0 0;
+}
+.qb_api_wordpress  .preco input{text-align:right}
+.qb_api_wordpress  .size1of37{margin-top:7px;}
+.qb_api_wordpress  .size1of37 input{margin-right:5px;}
+.qb_api_wordpress  .on_off input{margin-right:5px;}
+#poststuff .inside, #poststuff .inside .mtop3{margin-top:3px;}
+#poststuff .inside, #poststuff .inside .mtop5{margin-top:5px;}
+
+/* ADMIN CONFIG */
+
+.config_qb_api{margin:10px 0 0 15px}
+.config_qb_api h3{margin-bottom:5px;}
+.config_qb_api h4{margin-bottom:30px; font-size:11px }
+.config_qb_api p{margin-bottom:10px}
+.config_qb_api input{height:26px; padding:5px}
+.config_qb_api #post_ad_password{margin-left:67px}
+.config_qb_api .bt_save{margin:20px 0 0 155px}
+
+/* FIM PLUGIN WORDPRESS */
